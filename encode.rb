@@ -1,3 +1,3 @@
 def alph()
-	a = "test"
+	a = Array("a..z")
 end
