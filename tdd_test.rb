@@ -4,7 +4,7 @@ require_relative "encode.rb"
 class TestEncode < Minitest::Test
 
 	def test_if_string_is_in_array
-		assert_equal(String, alph().class)
+		assert_equal(Array, alph().class)
 	end
 
 end
