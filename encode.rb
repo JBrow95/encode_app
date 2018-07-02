@@ -1,3 +1,5 @@
-def alph()
-	a = Array("a..z")
+msg = ""
+
+def alph(msg)
+	
 end
