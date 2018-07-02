@@ -12,4 +12,9 @@ class TestEncode < Minitest::Test
 		msg = ""
 		assert_equal("pnqq", alph("kill"))
 	end
+
+	def test_if_msg_is_decrypted
+		msg = ""
+		assert_equal("kill", alph_de("pnqq"))
+	end
 end
