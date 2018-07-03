@@ -8,17 +8,13 @@
 # 	msg.tr('F-ZA-Ef-ze-e', "A-Za-z")
 # end
 
-# string = ""
-# def caesar_cipher(string, key)
-#     string.downcase.gsub(/[a-z]/) { |m| ((m.ord - 'a'.ord + key) % 26 + 'a'.ord).chr }
+# msg = ""
+# def encode(msg)
+# 	encode_msg = msg.chars.map {|val| val.ord}
+# 	shift_five = encode_msg.map {|val| val + 5 }
+# 	shift_five.map {|val| val.chr }.join
 # end
 
-# def cipher_shift(s, n)
-#   letters = [*'a'..'z'] 
-#   s.chars.map {|x| letters.include?(x.downcase) ? (x.ord + n).chr : x}.join
-# end
-str = ""
-def encode(str)
-# alphabet = [*'a'..'z']
+def encode()
 
 end

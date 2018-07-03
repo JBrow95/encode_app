@@ -22,8 +22,22 @@ class TestEncode < Minitest::Test
 
 	#begin test for other way
 
-	def test_if_array_is_a_class
-		str = ""
-		assert_equal(Array, encode(str).class)
+	# def test_if_string_is_in_array
+	# 	assert_equal(String, encode("").class)
+	# end
+
+	# def test_if_encrypt_equals_msg
+	# 	assert_equal(4, encode("\x7F"))
+	# end
+
+	# def test_if_msg_is_decrypted
+	# 	assert_equal("kill", caesar_cipher("pnqq"))
+	# end
+
+	#end test for ascii
+
+	#begin test for array
+	def test_if_array_is_class
+		assert_equal(Array, encode().class)
 	end
 end
