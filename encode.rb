@@ -15,6 +15,13 @@
 # 	shift_five.map {|val| val.chr }.join
 # end
 
+# str = ""
+# def encode(str)
+# 	alph = ('a'..'z').to_a.join
+# 	shifted = alph.chars.rotate(5).join
+# 	str.tr(alph, shifted)
+# end
+
 def encode()
-	alphabet = [*['a'..'z', *'A'..'Z']]
+	
 end
