@@ -1,9 +1,9 @@
 msg = ""
 
 def alph(msg)
-	msg.tr('a-v', 'f-z')
+	msg.tr('A-Za-z', 'F-ZA-Ef-za-e')
 end
 
 def alph_de(msg)
-	msg.tr('f-z', 'a-v')
+	msg.tr('F-ZA-Ef-ze-e', "A-Za-z")
 end
